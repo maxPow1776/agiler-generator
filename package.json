@@ -1,0 +1,19 @@
+{
+  "name": "agiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server -w data.json -p 9000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "CommonJS",
+  "license": "ISC",
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "json-server": "^0.17.0",
+    "node-fetch": "^3.2.4"
+  }
+}
